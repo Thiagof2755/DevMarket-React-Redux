@@ -26,6 +26,8 @@
 
 .logo {
   cursor: pointer;
+  margin-top: 0px;
+  padding-top: 0px ;
   grid-area: logo;
 }
 
@@ -34,6 +36,7 @@
   display: flex;
   justify-content: flex-start;
   gap: 20px;
+  
   @media(max-width: $tablet) {
     justify-self: start;
   }
@@ -54,6 +57,7 @@
 .selected {
   font-weight: bold;
   text-decoration: underline;
+  
 }
 
 .icones {
